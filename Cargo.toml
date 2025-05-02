@@ -1,0 +1,18 @@
+[package]
+name = "annoying"
+version = "1.0.0"
+edition = "2021"
+description = "annoying others and yourself"
+license = "MIT"
+homepage = "https://waradu.dev"
+repository = "https://github.com/Waradu/annoying"
+readme = "README.md"
+authors = ["Waradu"]
+keywords = ["annoy","annoying"]
+
+[dependencies]
+ctrlc = "3.4.5"
+
+[[bin]]
+name = "annoy"
+path = "src/main.rs"
